@@ -1,1 +1,85 @@
-# LOVE
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biografi Wafik Azzahra</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-white">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md fixed top-0 w-full z-50">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Wafik Azzahra, Amd.kep</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-blue-600">Tentang</a>
+        <a href="#timeline" class="hover:text-blue-600">Biografi</a>
+        <a href="#gallery" class="hover:text-blue-600">Galeri</a>
+        <a href="#contact" class="hover:text-blue-600">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex items-center justify-center bg-gradient-to-r from-blue-200 to-blue-500" id="home">
+    <div class="text-center px-6 mt-16">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4 text-white">Halo, saya Wafik Azzahra, Amd.kep</h2>
+      <p class="text-lg md:text-xl text-white mb-6">Wanita kuat. Pencari makna hidup.</p>
+      <a href="#about" class="px-6 py-2 bg-white text-blue-600 rounded-full font-semibold shadow-md hover:bg-blue-100">Kenali Saya Lebih Dekat</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6 bg-gray-100">
+    <div class="max-w-3xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-4">Tentang Saya</h3>
+      <p class="text-gray-700 text-lg">Saya adalah wanita penuh semangat dari Kendal yang percaya bahwa setiap orang berhak merasa dicintai dan diterima. Sebagai seorang perawat, saya mengabdikan diri untuk merawat bukan hanya tubuh, tapi juga hati.</p>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section id="timeline" class="py-20 px-6">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-3xl font-semibold text-center mb-10">Perjalanan Hidup</h3>
+      <div class="space-y-6">
+        <div><strong>1999</strong> – Lahir di Kendal</div>
+        <div><strong>2018</strong> – Lulus SMA dan mulai kuliah Keperawatan</div>
+        <div><strong>2021</strong> – Lulus dan bahagia</div>
+        <div><strong>2024</strong> – Memulai perjalanan personal branding</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-20 px-6 bg-gray-50">
+    <div class="max-w-5xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-8">Galeri</h3>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <img src="kucing.jpg" alt="Foto 1" class="rounded-lg shadow-md">
+        <img src="kucing.jpg" alt="Foto 2" class="rounded-lg shadow-md">
+        <img src="kucing.jpg" alt="Foto 3" class="rounded-lg shadow-md">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-6">Kontak Saya</h3>
+      <p class="mb-4">Ingin kenal lebih dekat? Hubungi saya melalui:</p>
+      <div class="space-y-2">
+        <p>Email: wafik@example.com</p>
+        <p>WhatsApp: +62 812-3456-7890</p>
+        <p>Instagram: @wafikazzahra</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white py-6 text-center text-sm text-gray-500 border-t">
+    © 2025 Wafik Azzahra. All rights reserved.
+  </footer>
+
+</body>
+</html>
